@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchorPane" prefHeight="2048.0" prefWidth="1826.0" stylesheets="@styleDelete.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="start.checkFeesController">
+   <children>
+      <JFXButton id="back" fx:id="back" layoutX="264.0" layoutY="237.0" onAction="#handleBackButton" prefHeight="72.0" prefWidth="123.0" style="-fx-background-color: #E91E63;" text="Back">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="190.0" fitWidth="730.0" layoutX="691.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@srmu3.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="748.0" layoutY="418.0" prefHeight="54.0" prefWidth="59.0" text="ID">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="usedIdT" layoutX="913.0" layoutY="377.0" prefHeight="95.0" prefWidth="454.0" promptText="Enter the id of the student">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="30.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="checkFees" layoutX="1041.0" layoutY="556.0" onAction="#handleCheckFee" prefHeight="63.0" prefWidth="180.0" style="-fx-background-color: #E91E63;" text="Check Fees">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="response" alignment="TOP_CENTER" layoutX="640.0" layoutY="732.0" prefHeight="239.0" prefWidth="982.0" textFill="#c62424">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchorPane" prefHeight="1028.0" prefWidth="1565.0" stylesheets="@styleAdmin.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="start.adminLoginController">
+   <children>
+      <Label id="idLabel" alignment="CENTER" layoutX="431.0" layoutY="313.0" prefHeight="75.0" prefWidth="177.0" text="User Id">
+         <font>
+            <Font name="Times New Roman Italic" size="36.0" />
+         </font></Label>
+      <Label id="passwordLabel" alignment="CENTER" layoutX="435.0" layoutY="441.0" prefHeight="58.0" prefWidth="170.0" text="Password">
+         <font>
+            <Font name="Times New Roman Italic" size="36.0" />
+         </font></Label>
+      <ImageView fitHeight="180.0" fitWidth="765.0" layoutX="499.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@srmu3.png" />
+         </image>
+      </ImageView>
+      <JFXButton id="signIn" fx:id="signIn" layoutX="789.0" layoutY="573.0" mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="82.0" prefWidth="241.0" style="-fx-background-color: #E91E63;" text="Login">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font></JFXButton>
+      <Label alignment="CENTER" layoutX="718.0" layoutY="186.0" prefHeight="82.0" prefWidth="293.0" text="Admin Login" textFill="#d3c1c1">
+         <font>
+            <Font name="Times New Roman Italic" size="48.0" />
+         </font></Label>
+      <JFXButton id="back" fx:id="back" layoutX="59.0" layoutY="186.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="68.0" prefWidth="152.0" style="-fx-background-color: #E91E63;" text="Back">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font></JFXButton>
+      <Label id="response" fx:id="response" alignment="CENTER" layoutX="360.0" layoutY="799.0" prefHeight="98.0" prefWidth="716.0" textFill="#380e4d">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="36.0" />
+         </font></Label>
+      <JFXTextField id="userT" fx:id="userT" layoutX="711.0" layoutY="285.0" prefHeight="98.0" prefWidth="415.0" promptText="Enter the  user id">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="36.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="pswdT" layoutX="711.0" layoutY="400.0" prefHeight="107.0" prefWidth="415.0" promptText="Enter the password">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="36.0" />
+         </font>
+      </JFXPasswordField>
+   </children>
+</AnchorPane>

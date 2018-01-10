@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchorPane" prefHeight="977.0" prefWidth="1790.0" stylesheets="@styleDelete.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="start.SearchStudent2">
+   <children>
+      <ImageView fitHeight="159.0" fitWidth="517.0" layoutX="669.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@srmu3.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="back" layoutX="89.0" layoutY="189.0" onAction="#handleBackButton" prefHeight="77.0" prefWidth="126.0" style="-fx-background-color: #E91E63;" text="Back">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="profileImage" fitHeight="331.0" fitWidth="309.0" layoutX="265.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@avatarm.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="818.0" layoutY="292.0" text="ID:">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="788.0" layoutY="353.0" text="ERP:">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="752.0" layoutY="430.0" text="Branch:">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="753.0" layoutY="516.0" text="Course:">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="706.0" layoutY="590.0" text="E-Mail ID:">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameL" layoutX="262.0" layoutY="133.0" prefHeight="77.0" prefWidth="338.0" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="691.0" layoutY="651.0" text="Attendance:">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="IDL" layoutX="882.0" layoutY="292.0" prefHeight="40.0" prefWidth="322.0" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="erpL" layoutX="882.0" layoutY="347.0" prefHeight="47.0" prefWidth="218.0" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="branchL" layoutX="883.0" layoutY="430.0" prefHeight="40.0" prefWidth="234.0" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="courseL" layoutX="882.0" layoutY="512.0" prefHeight="40.0" prefWidth="196.0" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailL" layoutX="882.0" layoutY="590.0" prefHeight="40.0" prefWidth="382.0" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="attendanceL" layoutX="883.0" layoutY="651.0" prefHeight="40.0" prefWidth="159.0" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

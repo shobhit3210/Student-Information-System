@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchorPane" prefHeight="1849.0" prefWidth="1912.0" style="-fx-background-size: stretch;" stylesheets="@styleStudent.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="start.StartController">
+
+    <children>
+
+      <JFXButton id="adminLoginButton" fx:id="adminLoginButton" layoutX="1320.0" layoutY="215.0" mnemonicParsing="false" onAction="#handleAdminButton" prefHeight="88.0" prefWidth="293.0" style="-fx-background-color: #F06292;" text="Admin Login">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font></JFXButton>
+      <JFXButton id="studentLoginButton" fx:id="studentLoginButton" layoutX="1317.0" layoutY="344.0" mnemonicParsing="false" onAction="#handleStudentButton" prefHeight="88.0" prefWidth="300.0" style="-fx-background-color: #F06292;" text="Student Login">
+         <font>
+            <Font size="30.0" />
+         </font></JFXButton>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1066.0" layoutY="14.0" prefHeight="141.0" prefWidth="821.0" text="Student Information System" textFill="#f44336de">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="64.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
